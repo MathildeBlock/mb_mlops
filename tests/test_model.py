@@ -16,5 +16,3 @@ def test_error_on_wrong_shape():
         model(torch.randn(1,2,3))
     with pytest.raises(ValueError, match='Expected each sample to have shape [1, 28, 28]'):
         model(torch.randn(1,1,28,29))
-
-
