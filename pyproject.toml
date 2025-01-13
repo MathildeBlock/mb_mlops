@@ -7,7 +7,7 @@ name = "my_project"
 version = "0.0.1"
 description = "."
 authors = [
-  { name = "mb", email = "your@email.com" },
+  { name = "MB", email = "your@email.com" },
 ]
 
 keywords = ["machine learning", "MLOps"]
@@ -27,11 +27,6 @@ dev = {file = ['requirements_dev.txt']}
 
 [tool.ruff]
 line-length = 120
-lint.select = ["I"]
 
 [tool.coverage.run]
 omit = ["tests/*"]
-
-[project.scripts]
-train = "my_project.train:train"
-evaluate = "my_project.evaluate:evaluate"

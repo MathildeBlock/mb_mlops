@@ -1,5 +1,6 @@
 # my_project
-Hej
+
+.
 
 ## Project structure
 
